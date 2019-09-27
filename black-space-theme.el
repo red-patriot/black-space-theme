@@ -17,7 +17,7 @@
  '(shadow ((((class color) (min-colors 89)) (:foreground "#686868"))))
  '(secondary-selection ((((class color) (min-colors 89)) (:background "#100a14"))))
  '(font-lock-builtin-face ((t (:foreground "#63b8ff"))))
- '(font-lock-comment-delimiter-face ((t (:overline nil :underline nil :background "#000000" :inherit font-lock-comment-face))))
+ '(font-lock-comment-delimiter-face ((t (:inherit font-lock-comment-face :background "#000000"))))
  '(font-lock-comment-face ((t (:background "#000000" :foreground "#da70d6" :overline t :underline "#ba55d3" :slant italic))))
  '(font-lock-constant-face ((t (:foreground "#ff00ff"))))
  '(font-lock-doc-face ((t (:foreground "green yellow"))))
