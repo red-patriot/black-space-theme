@@ -1,5 +1,5 @@
 (deftheme black-space
-  "Created 2019-08-16.")
+  "Created 2019-09-27.")
 
 (custom-theme-set-variables
  'black-space
@@ -11,15 +11,14 @@
  '(fixed-pitch ((t (:family "Monospace"))))
  '(variable-pitch ((((type w32)) (:foundry "outline" :family "Arial")) (t (:family "Sans Serif"))))
  '(escape-glyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
- '(homoglyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
  '(minibuffer-prompt ((((class color) (min-colors 89)) (:inherit bold :foreground "#4f97d7"))))
  '(highlight ((((class color) (min-colors 89)) (:foreground "#b2b2b2" :background "#444155"))))
  '(region ((((class color) (min-colors 89)) (:background "#444155"))))
  '(shadow ((((class color) (min-colors 89)) (:foreground "#686868"))))
  '(secondary-selection ((((class color) (min-colors 89)) (:background "#100a14"))))
  '(font-lock-builtin-face ((t (:foreground "#63b8ff"))))
- '(font-lock-comment-delimiter-face ((t (:inherit font-lock-comment-face :background "#000000"))))
- '(font-lock-comment-face ((t (:background "#000000" :foreground "#fafafa" :slant italic))))
+ '(font-lock-comment-delimiter-face ((t (:overline nil :underline nil :background "#000000" :inherit font-lock-comment-face))))
+ '(font-lock-comment-face ((t (:background "#000000" :foreground "#da70d6" :overline t :underline "#ba55d3" :slant italic))))
  '(font-lock-constant-face ((t (:foreground "#ff00ff"))))
  '(font-lock-doc-face ((t (:foreground "green yellow"))))
  '(font-lock-function-name-face ((((class color) (min-colors 89)) (:foreground "#ffff00" :inherit bold))))
@@ -76,7 +75,6 @@
  '(dired-perm-write ((((class color) (min-colors 89)) (:foreground "#b2b2b2" :underline t))))
  '(dired-symlink ((((class color) (min-colors 89)) (:foreground "#28def0" :background "#292b2e" :inherit bold))))
  '(dired-warning ((((class color) (min-colors 89)) (:foreground "#dc752f"))))
- '(eldoc-highlight-function-argument ((((class color) (min-colors 89)) (:foreground "#86dc2f" :inherit bold))))
  '(flycheck-error ((((supports :underline (:style line)) (class color) (min-colors 89)) (:underline (:style line :color "#e0211d"))) (((class color) (min-colors 89)) (:foreground "#b2b2b2" :background "#e0211d" :inherit bold :underline t))))
  '(flycheck-error-list-checker-name ((((class color) (min-colors 89)) (:foreground "#4f97d7"))))
  '(flycheck-fringe-error ((((class color) (min-colors 89)) (:foreground "#e0211d" :inherit bold))))
@@ -98,11 +96,7 @@
  '(info-title-2 ((((class color) (min-colors 89)) (:height 1.3 :inherit bold))))
  '(info-title-3 ((((class color) (min-colors 89)) (:height 1.3))))
  '(info-title-4 ((((class color) (min-colors 89)) (:height 1.2))))
- '(linum ((((class color) (min-colors 89)) (:foreground "#7a67ee" :background "#000000" :inherit default))))
- '(line-number ((((class color) (min-colors 89)) (:foreground "#44505c" :background "#212026" :inherit default))))
- '(line-number-current-line ((((class color) (min-colors 89)) (:inherit line-number :background "#000000" :foreground "#b2b2b2"))))
  '(show-paren-match ((((class color) (min-colors 89)) (:underline "#7cfc00" :inherit bold :foreground "#7cfc00"))))
- '(show-paren-match-expression ((((class color) (min-colors 89)) (:background "#29422d"))))
  '(show-paren-mismatch ((((class color) (min-colors 89)) (:foreground "#e0211d" :inherit bold :underline t))))
  '(default ((t (:background "#000000" :foreground "#b2b2b2")))))
 
